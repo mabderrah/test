@@ -1,0 +1,9 @@
+{"services":[
+   {"name":"getBalancesByAccount", "criteria":[{"name":"entity","mandatory":"Y", "description":"Business Unit"}, {"name":"fiscalYear","mandatory":"Y", "description":"Fiscal Year"},{"name":"accountingPeriod","mandatory":"N", "description":"Accounting Period"}]},
+   {"name":"getBalancesByAltAccount", "criteria":[{"name":"entity","mandatory":"Y", "description":"Business Unit"}, {"name":"entity","mandatory":"Y", "description":"Business Unit"}]},
+   {"name":"getService1", "criteria":[{"name":"entity","mandatory":"Y", "description":"Business Unit"}, {"name":"fiscalYear","mandatory":"Y", "description":"Fiscal Year"}]},
+   {"name":"getService2", "criteria":[{"name":"entity","mandatory":"Y", "description":"Business Unit"}, {"name":"fiscalYear","mandatory":"Y", "description":"Fiscal Year"}]},
+   {"name":"getService3", "criteria":[{"name":"entity","mandatory":"Y", "description":"Business Unit"}, {"name":"fiscalYear","mandatory":"Y", "description":"Fiscal Year"}]},
+   {"name":"getService4", "criteria":[{"name":"entity","mandatory":"Y", "description":"Business Unit"}, {"name":"fiscalYear","mandatory":"Y", "description":"Fiscal Year"}]},
+   {"name":"getService5", "criteria":[{"name":"entity","mandatory":"Y", "description":"Business Unit"}, {"name":"fiscalYear","mandatory":"Y", "description":"Fiscal Year"}]}
+]}
